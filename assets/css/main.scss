@@ -7,6 +7,17 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
+/*
+Breakpoints
+========================================================================== */
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
 /* type scale */
 $type-size-1: 2.441em !default;
 $type-size-2: 1.953em !default;
@@ -28,29 +39,34 @@ $h-size-6: 1em !default;
 @import "minimal-mistakes";
 
 html {
-    font-size: 12px; // change to whatever
+    font-size: 18px; // change to whatever
   
+    @include breakpoint($small) {
+      font-size: 18px; // change to whatever
+    }
+
     @include breakpoint($medium) {
-      font-size: 14px; // change to whatever
+      font-size: 18px; // change to whatever
     }
   
     @include breakpoint($large) {
-      font-size: 15px; // change to whatever
+      font-size: 18px; // change to whatever
     }
   
     @include breakpoint($x-large) {
-      font-size: 16px; // change to whatever
+      font-size: 14px; // change to whatever
     }
   }
 
   .page__footer footer {
     padding: 0px;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em
+    margin: 1.5em;
+
   }
 
   .page__content{
     text-align: justify;
+    font-size: 16px;
   }
 
   .page__hero-image{
@@ -71,4 +87,16 @@ html {
 
   .author__bio{
     margin-right: 10px;
+  }
+
+  .page__footer-copyright{
+    font-size: .65em;
+  }
+
+  p {
+    line-height: 1.8em;
+  }
+
+  .page__title{
+    font-size: 2em;
   }
