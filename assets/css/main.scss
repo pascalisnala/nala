@@ -1,0 +1,70 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+/* type scale */
+$type-size-1: 2.441em !default;
+$type-size-2: 1.953em !default;
+$type-size-3: 1.563em !default;
+$type-size-4: 1.25em !default;
+$type-size-5: 1.1em !default;
+$type-size-6: 0.8em !default;
+$type-size-7: 0.8em !default;
+$type-size-8: 0.625em !default;
+
+/* headline scale */
+$h-size-1: 1.563em !default;
+$h-size-2: 1.25em !default;
+$h-size-3: 1.125em !default;
+$h-size-4: 1.0625em !default;
+$h-size-5: 1.03125em !default;
+$h-size-6: 1em !default;
+
+@import "minimal-mistakes";
+
+html {
+    font-size: 12px; // change to whatever
+  
+    @include breakpoint($medium) {
+      font-size: 14px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 15px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 16px; // change to whatever
+    }
+  }
+
+  .page__footer footer {
+    padding: 0px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em
+  }
+
+  .page__content{
+    text-align: justify;
+  }
+
+  .page__hero-image{
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .masthead__menu-item{
+    font-size: .85em;
+  }
+
+  blockquote{
+    font-style: normal;
+    border-left: .15em solid #f1f1f1;
+    margin-left: 1.5em;
+  }
