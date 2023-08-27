@@ -1,10 +1,11 @@
 ---
-title: "Posts by Tag"
-permalink: /tags/
-layout: tags
+layout: home
 author_profile: false
+title: "Articles"
+categories:
+  - Articles
+permalink: /articles/
 ---
-<a href="/articles/" class="btn btn--inverse btn--small">Most Recent</a>
 <a href="/posts/" class="btn btn--inverse btn--small">Group by Year</a>
 <a href="/categories/" class="btn btn--inverse btn--small">Group by Categories</a>
-
+<a href="/tags/" class="btn btn--inverse btn--small">Group by Tags</a>

@@ -60,22 +60,29 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Nala Krisnanda"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I have a lot of learning interest, more specifically in data, matemathics, and engineering. Welcome!"
+  name      : "Nala Krisnanda"
+  avatar    : "/assets/images/bio-photo.jpg"
+  bio       : "I have a lot of learning interest, more specifically in data, matemathics, and engineering. Welcome!"
+  email     : "pascalisnala98@gmail.com"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/nala-krisnanda"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/pascalisnala"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/nala-krisnanda"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"

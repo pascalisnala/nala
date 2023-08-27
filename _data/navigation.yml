@@ -1,5 +1,5 @@
 main:
   - title: "Articles"
-    url: /posts/
+    url: /articles/
   - title: "My Resume"
     url: /resume/
