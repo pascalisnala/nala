@@ -4,7 +4,7 @@ title: "Resume"
 author_profile: true
 ---
 
-A data practioner with 3 years of experience in Indonesia's tech companies. Currently a _Statistics with Data Science MSc_ student at The University of Edinburgh, aiming to obtain expertise in analytics, optimization, and causal inference.
+A data practioner with 3 years of experience in Indonesian tech companies. Currently a _Statistics with Data Science MSc_ student at The University of Edinburgh, aiming to obtain expertise in analytics, optimization, and causal inference.
 
 # Career
 ### **Data Analyst** 

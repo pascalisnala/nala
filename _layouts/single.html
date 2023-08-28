@@ -90,3 +90,8 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+
+{% if page.url != "/" and page.url != "/resume" %}
+  {% include footer_ads.html %}
+{% endif %}
